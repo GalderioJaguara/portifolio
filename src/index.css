@@ -8,11 +8,30 @@ html {
 }
 body {
   max-width: 1280px;
-  margin: 120px auto;
+  margin: auto;
   background: rgb(255,255,255);
 background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(241,245,249,1) 100%);
 }
 
 .tech-icons {
   width: 50px;
+}
+
+p {
+  word-break: break-word; /* Quebra palavras longas */
+  overflow-wrap: anywhere; /* Garante que palavras muito grandes sejam quebradas */
+}
+.width-containers {
+  width: calc(100% - 2rem);
+  margin: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+@media (width < 330px) {
+  img-ultra-small {
+    max-width: 190px;
+  }
 }
