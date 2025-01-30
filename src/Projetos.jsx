@@ -14,7 +14,7 @@ function Projetos() {
                 <ProjectsCard key={project.id} title={project.title} img={project.img} description={project.description} type={project.type} techs={project.techs} url={project.url}/>
                  ))}
                 </div>
-            <span className="text-3xl font-bold mt-auto">&#125;;</span>
+            <span className="text-3xl font-bold">&#125;;</span>
         </div>
        
     );

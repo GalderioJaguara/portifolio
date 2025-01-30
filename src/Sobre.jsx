@@ -3,7 +3,7 @@ import avatarNicolas from "/avatar.png"
 
 function Sobre() {
     return (
-        <div className="my-8 lg:h-[80dvh] flex flex-col justify-center width-containers" id="sobre">
+        <div className="my-8 flex flex-col justify-center width-containers" id="sobre">
             <div className="flex flex-col lg:flex-row-reverse lg:items-center justify-center gap-8 h-full">
                      <div className="max-w-[310px] lg:max-w-[400px] m-auto">
                         <img src={avatarNicolas} alt="Nicolas Avatar" className="rounded-full border-solid border-black border-2"/>
@@ -17,7 +17,7 @@ function Sobre() {
                 </div>
                    
             </div>
-               <span className="text-3xl font-bold mt-auto ">&#125;;</span>
+               <span className="text-3xl font-bold">&#125;;</span>
         </div>
     );
 }
