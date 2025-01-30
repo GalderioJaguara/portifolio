@@ -5,7 +5,7 @@ function ProjectsCard(props){
     return (
         <div className="border-slate-200 border-solid border-2 p-8 rounded-2xl shadow-sm bg-gradient-to-r from-slate-50 to-slate-100">
             <div className="">
-                <img src ={props.img} alt={props.title} className="object-contain md:object-cover rounded-2xl"/>
+                <img src ={props.img} alt={props.title} loading="lazy" className="object-contain md:object-cover rounded-2xl"/>
                 <h3 className="text-xl font-bold pt-4 pb-2">{props.title}</h3>
                 <p className="pb-4">{props.description}</p>
                 <div className="flex items-center flex-wrap gap-4">

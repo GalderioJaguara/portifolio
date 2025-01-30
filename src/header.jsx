@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "/nicolas-logo2.png"
+import logo from "/nicolas-logo2.svg"
 import { HiLanguage } from "react-icons/hi2";
 import Menu from "./Menu";
 

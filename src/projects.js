@@ -1,4 +1,4 @@
-import viperScreenshot from "/viper-estetica.png"
+import viperScreenshot from "/viper-estetica.webp"
 
 
 
