@@ -27,7 +27,7 @@ function Menu() {
 
     return (
     <div className="relative">
-        <MobileMenu toggleMenu={toggle} menuMobile={menuMobile}/>
+        <MobileMenu toggleMenu={toggle} menuMobile={menuMobile} size={windowSize}/>
         {menuMobile &&  <DropMenu toggleMenu={toggle} menuMobile={menuMobile} isVisible={visible}/>}
     </div>
     )

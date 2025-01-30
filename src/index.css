@@ -30,8 +30,3 @@ textarea {
   resize: vertical;
 }
 
-@media (width < 330px) {
-  img-ultra-small {
-    max-width: 190px;
-  }
-}
