@@ -13,7 +13,7 @@ function Header() {
         <Menu />
         <nav className="hidden md:flex justify-between items-center p-8 bg-gradient-to-r from-neutral-50 to-slate-200/55  rounded-2xl  border mt-4 border-slate-400 h-11 text-black backdrop-blur-md shadow-sm">
             <div className="flex ">
-                <img src={logo} alt="logo-nicolas" className="w-[140px] h-[49px]"/>
+                <img src={logo} alt="logo-nicolas" className="w-[140px] h-[49px]" width={140} height={49}/>
                 <ul className="flex gap-4 ml-4 items-center">
                     <li><a href="#sobre" className="hover:text-slate-300">Sobre</a></li>
                     <li><a href="#tecnologias" className="hover:text-slate-300">Tecnologias</a></li>
