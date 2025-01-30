@@ -15,7 +15,7 @@ function TechStack(props){
     return (
         <div className="border-solid border-2 border-slate-200 p-8 w-[165px] h-[165px] bg-gradient-to-r from-slate-50 to-slate-100 rounded-2xl hover:scale-125 ease-out transition shadow-sm " onMouseOver={handleFilter} onMouseOut={removeFilter}>
             <div className={`flex flex-col items-center gap-4 ${filter} ease-out transition`}>
-                <img src ={props.icon} loading="lazy" className="tech-icons" alt={props.description}/>
+                <img src ={props.icon} loading="lazy" width="50" height="50" className="tech-icons" alt={props.description}/>
                 <p className={filterText}>{props.description}</p>
             </div>
         </div>
