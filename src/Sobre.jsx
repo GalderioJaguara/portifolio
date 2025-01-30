@@ -1,7 +1,7 @@
 import React from "react";
 import avatarNicolas from "/avatar3.webp"
 
-function Sobre() {
+ function Sobre() {
     return (
         <div className="my-8 flex flex-col justify-center width-containers" id="sobre">
             <div className="flex flex-col lg:flex-row-reverse lg:items-center justify-center gap-8 h-full">
