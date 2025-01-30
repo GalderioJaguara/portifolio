@@ -9,7 +9,7 @@ function Header() {
 
     return (
     
-    <header className="md:w-full max-w-7xl z-50 px-8 mb-8">
+    <header className="width-containers w-full z-50  mb-8">
         <Menu />
         <nav className="hidden md:flex justify-between items-center p-8 bg-gradient-to-r from-neutral-50 to-slate-200/55  rounded-2xl  border mt-4 border-slate-400 h-11 text-black backdrop-blur-md shadow-sm">
             <div className="flex ">
